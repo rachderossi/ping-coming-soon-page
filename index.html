@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>document.documentElement.className += ' js';</script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="img/logo.svg" alt="Ping"></a>
+  </header>
+
+  <section class="intro">
+    <div class="intro-info">
+      <h1>We are launching <span style="color: hsl(209, 33%, 12%); font-weight: 700;"> soon! </span></h1>
+      <p>Subscribe and get notified</p>
+    </div>
+
+    <div class="form">
+      <div class="form-button">
+        <ul>
+          <li><input type="email" id="email" name="email" placeholder="Your email address..." size="30" required></li>
+          <li>
+            <nav id="submitButton" onclick="EmailValidation()"><a href="#">Notify Me</a></nav>
+          </li>
+        </ul>
+        <p id="errorMessage"></p>
+      </div>
+    </div>
+
+    <div class="intro-img">
+      <img src="img/illustration-dashboard.png" alt="illustration-dashboard">
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer_redes">
+      <ul>
+        <li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+        <li><a href="http://twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+        <li><a href="http://instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+      </ul>
+    </div>
+    <div class="footer_info">
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"> </script>
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br>
+    Coded by <a href="https://github.com/rachderossi" target="_blank">Raquel Rossi</a>
+  </div>
+   -->
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;0,700;1,300&display=swap");
+
+body,
+h1,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-info {
+  flex: 2 1 160px;
+  margin: 0 auto;
+}
+
+.intro-info h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-family: "Libre Franklin";
+  font-size: 40px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.intro-info p {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+  font-family: "Libre Franklin";
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-button input {
+  border-radius: 30px;
+  padding: 20px 100px 20px 20px;
+  border: 2px solid hsl(0, 0%, 59%);
+  outline: none;
+  font-size: 15px;
+  font-family: "Libre Franklin";
+}
+
+.form ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.form nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form a {
+  border-radius: 30px;
+  font-weight: 600;
+  font-family: "Libre Franklin";
+  box-shadow: 0px 10px 13px -7px hsl(220, 21%, 33%);
+  background: hsl(223, 87%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.form nav a {
+  display: block;
+  padding: 20px 70px 20px 70px;
+  border: 2px;
+}
+
+.form p {
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Libre Franklin";
+  color: hsl(354, 100%, 66%);
+  padding: 20px 200px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.footer {
+  width: 100%;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer_redes ul li a {
+  border: 2px solid hsl(223, 100%, 88%);
+  border-radius: 30px;
+  display: block;
+  padding: 10px;
+}
+
+.footer_info {
+  padding-top: 30px;
+  font-weight: 300;
+  font-family: "Libre Franklin";
+}
+
+.footer_redes ul li a:hover {
+  filter: invert(62%) sepia(2%) saturate(0%) hue-rotate(32deg) brightness(97%)
+    contrast(89%);
+}
+
+@media (max-width: 745px) {
+  .form p {
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 617px) {
+  .intro-info h1 {
+    font-size: 30px;
+    padding-top: 30px;
+  }
+
+  .form p {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .form input {
+    border: 2px solid hsl(223, 100%, 88%);
+    padding: 20px 50px 20px 20px;
+  }
+
+  .form input::placeholder {
+    color: hsl(223, 100%, 88%);
+  }
+
+  .form-button nav a {
+    padding: 20px 130px 20px;
+  }
+
+  .form ul li {
+    display: row;
+    margin-right: 0px;
+    padding-bottom: 10px;
+  }
+
+  .form p {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer {
+    padding-bottom: 50px;
+  }
+}
